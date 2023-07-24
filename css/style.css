@@ -233,18 +233,6 @@ footer > span {
     color: #444;
 }
 @media only screen and (max-width: 1024px) {
-    /* Adjust header-img and nav-bar for smaller screens */
-    #header-img {
-        margin-right: 20px;
-        margin-left: 12px;
-    }
-    #nav-bar ul {
-        margin-left: 20px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    /* Adjust header-img and nav-bar for even smaller screens */
     #header-img {
         margin-right: 10px;
         margin-left: 10px;
@@ -269,7 +257,71 @@ footer > span {
         white-space: nowrap;
     }
 
-    /* Make the features section responsive */
+    #features .icon {
+        font-size: 30px;
+        height: 75px;
+        width: 15vw;
+    }
+
+    #features .desc {
+        font-size: 12px;
+        padding-left: 2em;
+        padding-top: 2em;
+    }
+    #pricing {
+        position: absolute;
+        top: 210%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    div.price {
+        margin: 30px;
+        border: 1px solid #ccc;
+        transition: border 0.4s;
+        width: 180px;
+        height: 215px;
+    }
+    #submit {
+        width: 5em;
+        height: 2.0em;
+        color: white;
+        background-color: rgb(30, 30, 78);
+        border-radius: 5px;
+        border: none;
+        font-size: 12px;
+        text-transform: uppercase;
+        transition: background-color 0.8s;
+        cursor: pointer;
+        outline: none;
+        margin-bottom: 6em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #header-img {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #header-img img {
+        width: 35px;
+        height: 35px;
+    }
+    #header-title {
+        font-size: 20px;
+    }
+    #nav-bar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        margin-left: 65vh;
+        margin-top: -4.5vh;
+        min-width: 100px;
+        max-width: 950px;
+        flex-wrap: wrap;
+        white-space: nowrap;
+    }
+
     #features .icon {
         font-size: 30px;
         height: 75px;
@@ -313,45 +365,66 @@ footer > span {
 }
 
 @media only screen and (max-width: 480px) {
-    /* Adjust header-img and nav-bar for mobile devices */
     #header-img {
-        margin-right: 5px;
-        margin-left: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #header-img img {
+        width: 35px;
+        height: 35px;
+    }
+    #header-title {
+        font-size: 20px;
     }
     #nav-bar ul {
-        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        margin-left: 65vh;
+        margin-top: -4.5vh;
+        min-width: 100px;
+        max-width: 950px;
+        flex-wrap: wrap;
+        white-space: nowrap;
     }
 
-    /* Make the email input and get-started button responsive */
-    #email {
-        width: 100%;
-    }
-
-    #get-started {
-        width: 100%;
-        margin-bottom: 2em;
-    }
-
-    /* Adjust features section for smaller screens */
     #features .icon {
-        font-size: 20px;
-        height: 50px;
-        width: 10vw;
+        font-size: 30px;
+        height: 75px;
+        width: 15vw;
     }
 
     #features .desc {
-        padding-left: 1em;
+        font-size: 12px;
+        padding-left: 2em;
         padding-top: 2em;
     }
-
-    /* Adjust h2 and p for smaller screens */
-    h2 {
-        font-size: 1.2em;
+    #pricing {
+        position: absolute;
+        top: 210%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-
-    p {
-        
-        min-width: 100%;
-        max-width: 100%;
+    div.price {
+        margin: 30px;
+        border: 1px solid #ccc;
+        transition: border 0.4s;
+        width: 180px;
+        height: 215px;
+    }
+    #submit {
+        width: 5em;
+        height: 2.0em;
+        color: white;
+        background-color: rgb(30, 30, 78);
+        border-radius: 5px;
+        border: none;
+        font-size: 12px;
+        text-transform: uppercase;
+        transition: background-color 0.8s;
+        cursor: pointer;
+        outline: none;
+        margin-bottom: 6em;
     }
 }
