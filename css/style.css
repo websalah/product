@@ -234,70 +234,7 @@ footer > span {
 }
 
 
-@media (max-width:1300px)  {
-    #header-img {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-    #header-img img {
-        width: 35px;
-        height: 35px;
-    }
-    #header-title {
-        font-size: 20px;
-    }
-    #nav-bar ul {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 15px;
-        margin-left: 65vh;
-        margin-top: -4.5vh;
-        min-width: 100px;
-        max-width: 950px;
-        flex-wrap: wrap;
-        white-space: nowrap;
-    }
 
-    #features .icon {
-        font-size: 30px;
-        height: 75px;
-        width: 15vw;
-    }
-
-    #features .desc {
-        font-size: 12px;
-        padding-left: 2em;
-        padding-top: 2em;
-    }
-    #pricing {
-        position: absolute;
-        top: 225%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    div.price {
-        margin: 30px;
-        border: 1px solid #ccc;
-        transition: border 0.4s;
-        width: 180px;
-        height: 215px;
-    }
-    #submit {
-        width: 5em;
-        height: 2.0em;
-        color: white;
-        background-color: rgb(30, 30, 78);
-        border-radius: 5px;
-        border: none;
-        font-size: 12px;
-        text-transform: uppercase;
-        transition: background-color 0.8s;
-        cursor: pointer;
-        outline: none;
-        margin-bottom: 6em;
-    }
-}
 @media screen and (max-device-width: 480px)
     and (orientation: portrait) {
     #pricing {
