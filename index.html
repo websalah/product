@@ -1,113 +1,188 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        <meta charset="UTF-8">
-        <meta viewport="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        <meta charset="UTF-8">
+    <meta viewport="width=device-width, initial-scale=1.0">
+    <title>Lenovo</title>
+    <style>
+        @font-face {
+            font-family: "LeagueSpartan Light";
+            src: url('fonts/League/static/LeagueSpartan-Light.ttf');
+        }
 
-        <header id="header">
-            <div id="header-img">
-                <img src="images/laptop.png">
-                <h1 id="header-title">Lenovo Legion 5</h1>
-            </div>
-            <nav id="nav-bar">
+        @font-face {
+            font-family: "LeagueSpartan Medium";
+            src: url('fonts/League/static/LeagueSpartan-Medium.ttf');
+        }
+
+        @font-face {
+            font-family: "LeagueSpartan Bold";
+            src: url('fonts/League/static/LeagueSpartan-Bold.ttf');
+        }
+
+        @font-face {
+            font-family: "LeagueSpartan ExtraBold";
+            src: url('fonts/League/static/LeagueSpartan-ExtraBold.ttf');
+        }
+
+        @font-face {
+            font-family: "LeagueSpartan Regular";
+            src: url('fonts/League/static/LeagueSpartan-Regular.ttf');
+        }
+    </style>
+</head>
+<body>
+    <div class="page-1" id="home">
+        <div class="navbar">
+            <h2>Lenovo</h2>
+            <nav>
                 <ul>
-                    <li><a class="nav-link" href="#features">Features</a></li>
-                    <li><a class="nav-link" href="#product-pictures">Product pictures</a></li>
-                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#product-pictures">Product pictures</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
                 </ul>
             </nav>
-        </header>
-        <form id="form" method="get" action="https://www.freecodecamp.org/email-submit">
-            <label id="email-label" for="email">Compelete your tasks easily, with lenovo laptops</label><br/>
-            <input type="email" id="email" placeholder="Enter your email"><br/>
-            <button type="submit" id="get-started" value="Get-started">Get Started</button>
-        </form>
-        <div class="container">
-        <section id="features">
-            <div class="grid">
-            <div class="icon">
-                <i class="fa fa-fire"></i>
+        </div>
+        <div class="content">
+            <div class="pic-1">
+                <img src="images/Lenovo.avif" alt="Lenovo">
             </div>
             <div class="desc">
-                <h2>Premium</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra eros sem, sed laoreet metus rhoncus et.</p>
+                <h1>Lorem ipsum.</h1>
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem explicabo a eaque, dolores aspernatur delectus quae, doloremque facere eligendi ex fuga non in tempore, qui tenetur cum est voluptatum impedit.</p>
+                <a href="http://example.com"><input type="button" value="Play video"></a>
             </div>
-            </div>
-            <div class="grid">
-                <div class="icon">
-                    <i class="fa fa-cloud"></i>
-                </div>
-                <div class="desc">
-                    <h2>Safe</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra eros sem, sed laoreet metus rhoncus et.</p>
-                </div>
-                </div>
-                <div class="grid">
-                    <div class="icon">
-                        <i class="fa fa-truck"></i>
-                    </div>
-                    <div class="desc">
-                        <h2>Delivery</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra eros sem, sed laoreet metus rhoncus et.</p>
-                    </div>
-                    </div>
-        </section><br/><br/><br/>
-        <section id="product-pictures">
-            <div class="gallery">
-                  <img src="images/laptop1.webp" width="600" height="400">
-                <div class="descpic">Add your description here</div>
-              </div>
-              
-              <div class="gallery">
-                  <img src="images/laptop2.jpg" width="600" height="400">
-                <div class="descpic">Add your description here</div>
-              </div>
-              
-              <div class="gallery">
-                  <img src="images/laptop3.webp" width="600" height="400">
-                <div class="descpic">Add your description here</div>
-              </div>
-              
-              <div class="gallery">
-                  <img src="images/laptop4.webp" width="600" height="400">
-                <div class="descpic">Add your description here</div>
-              </div>
-        </section>
-        <section id="pricing">
-            <div class="price">
-                <div class="level">product no. 1</div>
-                <h3>1800$</h3>
-                <div class="descp">Lorem ipsum.<br/> Lorem ipsum.<br/> Lorem ipsum dolor.<br/> Lorem ipsum.</div>
-                <div class="select">
-                    <button type="submit" id="submit" value="one">select</button>
-                </div>
-              </div>
-              
-              <div class="price">
-                <div class="level">product no. 2</div>
-                <h3>1200$</h3>
-                <div class="descp">Lorem ipsum.<br/> Lorem ipsum.<br/> Lorem ipsum dolor.<br/> Lorem ipsum.</div>
-                <div class="select">
-                    <button type="submit" id="submit" value="two">select</button>
-                </div>
-              </div>
-              
-              <div class="price">
-                <div class="level">product no. 3</div>
-                <h3>900$</h3>
-                <div class="descp">Lorem ipsum.<br/> Lorem ipsum.<br/> Lorem ipsum dolor.<br/> Lorem ipsum.</div>
-                <div class="select">
-                    <button type="submit" id="submit" value="three">select</button>
-                </div>
-              </div>
-        </section>
-        <footer>
-            <span>&COPY; Copyright 2023, Original Laptops</span>
-          </footer>
         </div>
-    </body>
+        <div class="social">
+            <div class="fb">
+                <a href="http://facebook.com" target="_blank"><li class="fa fa-facebook-official"></li></a>
+            </div>
+            <div class="ig">
+                <a href="http://instagram.com" target="_blank"><li class="fa fa-instagram"></li></a>
+            </div>
+            <div class="tw">
+                <a href="http://twitter.com" target="_blank"><li class="fa fa-twitter"></li></a>
+            </div>
+        </div>
+    </div>
+    <div class="page-2" id="features">
+        <div class="title">
+            <h2>Features</h2>
+        </div>
+        <div class="content-2">
+            <div class="pros">
+                <i class="fa fa-diamond"></i>
+                <div class="desc-1">
+                    <h3>Premium</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, eligendi.</p>
+                </div>
+            </div>
+            <div class="pros">
+                <i class="fa fa-cloud"></i>
+                <div class="desc-1">
+                    <h3>Safe</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, eligendi.</p>
+                </div>
+            </div>
+            <div class="pros">
+                <i class="fa fa-rocket"></i>
+                <div class="desc-1">
+                    <h3>Fast</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, eligendi.</p>
+                </div>
+            </div>
+            <div class="pros">
+                <i class="fa fa-truck"></i>
+                <div class="desc-1">
+                    <h3>Delivery</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, eligendi.</p>
+                </div>
+            </div>
+            <div class="pros">
+                <i class="fa fa-magic"></i>
+                <div class="desc-1">
+                    <h3>High Performance</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, eligendi.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="page-3" id="product-pictures">
+        <div class="title">
+            <h2>Product pictures</h2>
+        </div>
+        <div class="container">
+            <div class="first">
+                <img src="images/laptop3.webp" class="gallery" id="img-1">
+                <img src="images/img-2.webp" class="gallery" id="img-2">
+            </div>
+            <div class="second">
+                <img src="images/img-3.jpg" class="gallery" id="img-3">
+            </div>
+        </div>
+        <div class="container-1">
+            <img src="images/img-4.webp" class="gallery" id="img-4">
+            <h3>Lorem, ipsum.</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur labore corrupti ipsum nostrum veniam amet ipsa hic totam, nemo alias facere, voluptatum aliquam ratione! Repellendus!</p>
+        </div>
+    </div>
+    <div class="page-4" id="pricing">
+        <div class="title">
+            <h2>Pricing</h2>
+        </div>
+        <div class="wrap">
+            <div class="price-1">
+                <div class="price">
+                <h3></h3>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, similique.</p>
+                <a href="http://example.com"><input type="button" value="Select"></a>
+                </div>
+                <span id="line-1"></span>
+                <span id="line-2"></span>
+                <span id="circle"><b>1399$</b></span>
+            </div>
+            <div class="price-2">
+                <span id="line-1"></span>
+                <span id="line-2"></span>
+                <span id="circle"><b>1199$</b></span>
+                <div class="price">
+                <h3></h3>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, similique.</p>
+                <a href="http://example.com"><input type="button" value="Select"></a>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="price-1">
+                <div class="price">
+                <h3></h3>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, similique.</p>
+                <a href="http://example.com"><input type="button" value="Select"></a>
+                </div>
+                <span id="line-1"></span>
+                <span id="line-2"></span>
+                <span id="circle"><b>999$</b></span>
+            </div>
+            <div class="price-2" id="price-2">
+                <span id="line-1"></span>
+                <span id="line-2"></span>
+                <span id="circle"><b>499$</b></span>
+                <div class="price">
+                <h3></h3>
+                <h4>Lorem, ipsum.</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, similique.</p>
+                <a href="http://example.com"><input type="button" value="Select"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
